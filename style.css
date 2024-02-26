@@ -4,12 +4,70 @@
     padding: 0;
 }
 
-
+/*---- banner navigation---*/
 .banner {
-    background-image: url(./Images/bougie.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 800px;
+    height: 230px;
 }
 
-.logo img {}
+.logo img {
+    height: 70px;
+}
+
+.menuBurger img {
+    height: 25px;
+    position: relative;
+    left: 200px;
+    top: -45px;
+}
+
+.menuBurger:hover+.nav {
+    display: block;
+}
+
+.nav {
+    display: none;
+}
+
+.background {
+    background-image: url(./Images/bougie.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    position: relative;
+    top: -40px;
+    width: 250px;
+}
+
+.banner h1 {
+    color: white;
+    position: relative;
+    top: -135px;
+    font-size: 0.6rem;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+/*---- présentation fondation ---*/
+.presentation {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.presentation h2 {
+    font-size: 1rem;
+}
+
+.presentation p {
+    order: -1;
+}
+
+/*---- banner navigation---*/
+/*---- banner navigation---*/
+/*---- banner navigation---*/
+/*---- banner navigation---*/
+/*---- banner navigation---*/
+/*---- banner navigation---*/
+/*---- banner navigation---*/
+/*---- banner navigation---*/
