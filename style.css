@@ -18,7 +18,7 @@
 .menuBurger img {
     height: 25px;
     position: relative;
-    left: 270px;
+    left: 350px;
     top: -45px;
     z-index: 2;
 }
@@ -33,7 +33,7 @@
     padding: 28px 0;
     position: absolute;
     top: 0;
-    width: 300px;
+    width: 390px;
     height: auto;
     visibility: hidden;
     transition: ease-in 2s;
@@ -59,15 +59,15 @@
     height: 160px;
     position: relative;
     top: -40px;
-    width: 300px;
+    width: 390px;
 }
 
 .banner h1 {
     color: white;
     position: relative;
     top: -140px;
-    font-size: 0.7rem;
-    margin: 0 40px;
+    font-size: 0.8rem;
+    margin: 0 20px 0 10px;
     text-align: center;
     line-height: 0.8rem;
 }
@@ -81,8 +81,7 @@
 .aide {
     display: flex;
     flex-direction: column;
-    margin: 20px 20px 0 20px;
-
+    margin: 20px 20px 0 20px
 }
 
 .presentation h2 {
@@ -133,7 +132,7 @@ h3 {
 }
 
 .imgDimension {
-    width: 265px;
+    width: 350px;
 }
 
 .imgDimension img {
@@ -158,8 +157,41 @@ h3 {
 }
 
 
-/*---- banner navigation---*/
-/*---- banner navigation---*/
+/*---- formulaire---*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .formFirstParty {
+    display: flex;
+    flex-direction: column;
+}
+
+form input:hover,
+textarea:hover {
+    border: 1px solid red;
+}
+
+form .btn {
+    margin-top: 10px;
+}
+
+/*---- footer---*/
+footer {
+    background-color: rgb(213, 213, 213);
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.footer3 {
+    display: flex;
+}
+
 /*---- banner navigation---*/
 /*---- banner navigation---*/
 /*---- banner navigation---*/
