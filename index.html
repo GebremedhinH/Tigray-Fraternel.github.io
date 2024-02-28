@@ -13,10 +13,17 @@
 
     <div class="banner">
         <div> <a href="#" class="logo"><img src="./Images/Logotigray.png" alt=""></a></div>
-        <div class="menuBurger"><a href=""><img src="./Images/menu.png" alt=""></a></div>
+
+        <input type="checkbox" id="menu-burger-toggle">
+        <label for="menu-burger-toggle" class="menuBurger">
+            <!-- Icône du menu burger, par exemple des lignes pour simuler les barres du menu -->
+            <span><a href=""><img src="./Images/menu.png" alt=""></a></span>
+        </label>
+
         <div class="background"></div>
         <nav class="nav">
             <ul class="item-nav">
+                <li class="items-ul fermeture"><a href=""><i class="fa-solid fa-x"></i></a></li>
                 <li class="items-ul projets"><a href="">Nos projets</a></li>
                 <li class="items-ul vision"><a href="">Notre vision</a></li>
                 <li class="items-ul equioe"><a href="">Notre équipe</a></li>
@@ -117,22 +124,23 @@
         <div>
             <h4>Fondation de Tigray Fraternel</h4>
             <div>
-                <p>Route de la Glâne 115</p>
-                <p>1752 Villars-sur-Glâne</p>
+                <p>Route de la Glâne 115<br>1752 Villars-sur-Glâne</p>
             </div>
+        </div>
+        <div class="copyright">
             <p>Conçu par Hewan</p>
         </div>
         <div class="footer3">
             <div>
                 <h4>A propos</h4>
-                <div>
+                <div class="propos">
                     <a href="">Notre vision</a>
                     <a href="">Faire un don</a>
                 </div>
             </div>
             <div>
                 <h4>Projets</h4>
-                <div>
+                <div class="project">
                     <a href="">---</a>
                     <a href="">----</a>
                     <a href="">---</a>
