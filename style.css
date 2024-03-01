@@ -4,24 +4,28 @@
     padding: 0;
 }
 
+
+
 /*---- banner navigation---*/
 .banner {
     height: 230px;
+    width: 100%;
+}
+
+.bannerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo img {
     height: 70px;
-
 }
 
 .menuBurger span img {
     height: 25px;
-    position: relative;
-    left: 350px;
-    top: -45px;
-
+    margin: 30px 5px 0 0;
 }
-
 
 .menuBurger {
     cursor: pointer;
@@ -75,14 +79,14 @@
     background-repeat: no-repeat;
     height: 160px;
     position: relative;
-    top: -40px;
-    width: 390px;
+    top: -10px;
+    width: 100%;
 }
 
 .banner h1 {
     color: white;
     position: relative;
-    top: -140px;
+    top: -120px;
     font-size: 0.8rem;
     margin: 0 20px 0 10px;
     text-align: center;
@@ -148,7 +152,7 @@ h3 {
 }
 
 .imgDimension {
-    width: 350px;
+    min-width: 90%;
 }
 
 .imgDimension img {
@@ -225,8 +229,25 @@ footer {
     font-size: 0.8rem;
 }
 
+/*---
+/*----taille >260px 
+@media screen and (min-width: 260px) {
+    .menuBurger span img {
+        position: relative;
+        left: 300px;
+        top: -45px;
+    }
 
-/*---- banner navigation---*/
+    .background {
+        width: 330px;
+    }
+
+    .banner h1 {
+        left: 40px;
+        top: -150px;
+    }
+}
+---*/
 /*---- banner navigation---*/
 /*---- banner navigation---*/
 /*---- banner navigation---*/
