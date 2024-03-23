@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 80px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 250px;
+    color: white;
+    padding: 5px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+    padding: 0 20px;
+}
+
+.event-info {
+    margin-top: 20px;
+}
+
+.event-info p {
+    margin-bottom: 10px;
+}
+
+.objectif {
+    background-color: rgb(68, 63, 63);
+}
+
+.objectif p {
+    color: white;
+    padding: 20px 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+
+}
+
+.btn {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: red;
+}
+
+.button {
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(204, 22, 22);
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
